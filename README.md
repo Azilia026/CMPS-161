@@ -1,3 +1,3 @@
 # ValdezAnnaLabs
 CMPS Labs
-COMPS 161 at Southeastern Louisiana University with Matthew McNulty
+Computer Science 161 at Southeastern Louisiana University with Matthew McNulty
