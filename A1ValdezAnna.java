@@ -7,24 +7,28 @@ a usesr given percentage tip and the original bill amount
 
 import java.util.Scanner;
 
-public class A1ValdezAnna {//start
+public class A1ValdezAnna {//start class
 
-   public static void main(String[] args){ // start
+   public static void main(String[] args){//start main
    
-   Scanner input = new Scanner(System.in);
-   
+      Scanner input = new Scanner(System.in);
+
       System.out.println("This program will calculate a new total bill amount based on your original bill and a percentage tip.");
+
       System.out.println("The final bill total will be rounded to the nearest dollar."); //prints instucions for program
+
       System.out.print("Enter the original bill amount (with no dollar sign): "); //prompts user for bill amount
+
          double bill = input.nextDouble();
-   
+
       System.out.print("Enter the tip percentage (with no percent sign): ");//promts user for percent amount
-         double percent= input.nextDouble();
-      
+
+         double percent = input.nextDouble();
+
          double total = bill*((percent/100+1));
-         
-      System.out.println("Your new bill is: " +Math.round(total)); //prints final amount
+
+      System.out.println("Your new bill is: " + Math.round(total)); //prints final amount
    
-   }//end
+   }//end main
    
-}//end
+}//end class
